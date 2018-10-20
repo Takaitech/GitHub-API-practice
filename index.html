@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Git hub API</title>
+        <link  rel="stylesheet" href="main.css" type="text/css"> 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <div>
+            <h1>Search Github User Repos</h1>
+            <form class="submitForm">
+                <fieldset>
+                    <legend>Search</legend>
+                    <input type="text" id="userInput" required>
+                    <button type="submit">Submit</button>
+                </fieldset>
+            </form>
+        </div>
+        <div>
+            <ul id="results" class="hidden"></ul>
+            <p id="jsErrorMessage"></p>
+        </div>
+        <script src="app.js"></script>
+    </body>
+</html>
